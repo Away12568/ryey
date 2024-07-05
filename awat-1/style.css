@@ -1,0 +1,64 @@
+.container{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+padding: 0 25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    -webkit-box-shadow: 9px 13px 11px 6px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 9px 13px 11px 6px rgba(0, 0, 0, 0.2);
+box-shadow: 9px 13px 11px 6px rgba(0, 0, 0, 0.2);
+}
+.card > img{
+width: 100%;
+border-radius: 20px 20px 0 0;
+}
+.wrapper{
+    display: flex;
+    gap: 50px;
+    margin-top: 200px;
+    justify-content: center;
+}
+.content__post{
+    background-color: rgb(24, 24, 24);
+    padding: 75px;
+    border-radius: 0 0 20px 20px;
+    
+}
+body{
+    height: 100dvh;
+    background: rgb(28,28,28);
+background: radial-gradient(circle, rgba(28,28,28,1) 0%, rgba(92,92,92,1) 84%);
+}
+.p__post1{
+    color: crimson;
+}
+.content__post > h4{
+    color: white;
+    font-size: 30px;
+}
+.grey-text{
+    color: gray;
+    margin-top: 20px;
+}
+.p__post2{
+    color: green;
+}
+@media(max-width:1240px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    
+    }
+}
